@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AF37608D-B483-4E25-9954-F732C2400F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{8B920745-CE45-4A7B-8D4C-77DC83E20A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Catalog", "Services\Catalog\IEAMicroService.Catalog\IEAMicroService.Catalog.csproj", "{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BB566959-6AD1-4260-834E-C62590F0C5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Shared", "Shared\IEAMicroService.Shared\IEAMicroService.Shared.csproj", "{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B920745-CE45-4A7B-8D4C-77DC83E20A45} = {AF37608D-B483-4E25-9954-F732C2400F99}
+		{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0} = {8B920745-CE45-4A7B-8D4C-77DC83E20A45}
+		{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527} = {BB566959-6AD1-4260-834E-C62590F0C5D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860A446C-82CD-40E2-87E4-412F1ECF10BD}
+	EndGlobalSection
+EndGlobal
