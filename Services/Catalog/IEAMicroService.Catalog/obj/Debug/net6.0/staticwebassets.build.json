@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eFmlYwHMmi0HaPkR5XmG084K1Xy2qiLmHeyLyoUjGQ0=",
+  "Source": "IEAMicroService.Catalog",
+  "BasePath": "_content/IEAMicroService.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

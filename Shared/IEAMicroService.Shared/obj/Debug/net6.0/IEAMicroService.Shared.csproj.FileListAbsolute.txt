@@ -1,0 +1,12 @@
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\bin\Debug\net6.0\IEAMicroService.Shared.deps.json
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\bin\Debug\net6.0\IEAMicroService.Shared.dll
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\bin\Debug\net6.0\IEAMicroService.Shared.pdb
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.dll
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\refint\IEAMicroService.Shared.dll
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\IEAMicroService.Shared.pdb
+C:\GitHub\IEAMicroService\Shared\IEAMicroService.Shared\obj\Debug\net6.0\ref\IEAMicroService.Shared.dll

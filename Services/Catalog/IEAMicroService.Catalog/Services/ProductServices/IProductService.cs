@@ -8,7 +8,7 @@ namespace IEAMicroService.Catalog.Services.ProductServices
         Task<Response<List<ResultProductDto>>> GetAllProducts();
         Task<Response<ResultProductDto>> GetProductById(string id);
         Task<Response<NoContent>> CreateProduct(CreateProductDto createProductDto);
-        Task<Response<NoContent>> CreateProduct(UpdateProductDto updateProductDto);
+        Task<Response<NoContent>> UpdateProduct(UpdateProductDto updateProductDto);
         Task<Response<NoContent>> DeleteProduct(string id);
     }
 }
