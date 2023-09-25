@@ -47,3 +47,10 @@ C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\obj\Debug\net
 C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\obj\Debug\net6.0\IEAMicroService.Catalog.pdb
 C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\obj\Debug\net6.0\IEAMicroService.Catalog.genruntimeconfig.cache
 C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\obj\Debug\net6.0\ref\IEAMicroService.Catalog.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\IEAMicroService\Services\Catalog\IEAMicroService.Catalog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

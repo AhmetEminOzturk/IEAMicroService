@@ -43,7 +43,7 @@ namespace IEAMicroService.IdentityServer
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("secret".Sha256()) },
 
-                    AllowedScopes = { "catalog_fulpermission", IdentityServerConstants.LocalApi.ScopeName }
+                    AllowedScopes = { "catalog_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
                 },
 
                 // interactive client using code flow + pkce
@@ -56,7 +56,7 @@ namespace IEAMicroService.IdentityServer
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,                  
 
                     AllowOfflineAccess = true,
-                    AllowedScopes = { "catalog_fulpermission", IdentityServerConstants.LocalApi.ScopeName ,                  IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile},
+                    AllowedScopes = { "catalog_fullpermission", IdentityServerConstants.LocalApi.ScopeName ,                  IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile},
                     AccessTokenLifetime=3600
                 },
             };

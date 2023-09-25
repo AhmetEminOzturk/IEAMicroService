@@ -1,10 +1,12 @@
 ﻿using IEAMicroService.Catalog.Dtos.CategoryDtos;
 using IEAMicroService.Catalog.Services.CategoryServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IEAMicroService.Catalog.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
