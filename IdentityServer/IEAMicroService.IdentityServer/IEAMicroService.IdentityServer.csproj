@@ -5,9 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Migrations\20230925204543_initial.cs" />
+    <Compile Remove="Data\Migrations\20230925204543_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20230925205022_initial.cs" />
+    <Compile Remove="Data\Migrations\20230925205022_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20230925205251_mig1.cs" />
+    <Compile Remove="Data\Migrations\20230925205251_mig1.Designer.cs" />
+    <Compile Remove="Data\Migrations\20230925205431_initial.cs" />
+    <Compile Remove="Data\Migrations\20230925205431_initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="IdentityServer4.AspNetIdentity" Version="4.0.0" />
 
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.5" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
     <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
 
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
@@ -19,5 +32,9 @@
 
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
   </ItemGroup>
 </Project>
