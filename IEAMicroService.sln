@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.IdentityServer", "IdentityServer\IEAMicroService.IdentityServer\IEAMicroService.IdentityServer.csproj", "{BEACFEF9-BC2F-41FD-BE42-021ECC069FD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{E7BE0FE2-F6BE-437D-89C6-ADCA749269F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Discount", "Services\Discount\IEAMicroService.Discount\IEAMicroService.Discount.csproj", "{64EE962E-9521-48F9-9CA2-8C60B4CAAD04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{BEACFEF9-BC2F-41FD-BE42-021ECC069FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEACFEF9-BC2F-41FD-BE42-021ECC069FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEACFEF9-BC2F-41FD-BE42-021ECC069FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EE962E-9521-48F9-9CA2-8C60B4CAAD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EE962E-9521-48F9-9CA2-8C60B4CAAD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EE962E-9521-48F9-9CA2-8C60B4CAAD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EE962E-9521-48F9-9CA2-8C60B4CAAD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,8 @@ Global
 		{2BF82535-6FAA-4FCB-90C9-97CC3B2DDDB0} = {8B920745-CE45-4A7B-8D4C-77DC83E20A45}
 		{B8EF1CFE-B435-4D35-9D49-2B7AE0A21527} = {BB566959-6AD1-4260-834E-C62590F0C5D9}
 		{BEACFEF9-BC2F-41FD-BE42-021ECC069FD5} = {119DBBB5-0799-49A1-ABB1-E84736B88F23}
+		{E7BE0FE2-F6BE-437D-89C6-ADCA749269F6} = {AF37608D-B483-4E25-9954-F732C2400F99}
+		{64EE962E-9521-48F9-9CA2-8C60B4CAAD04} = {E7BE0FE2-F6BE-437D-89C6-ADCA749269F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {860A446C-82CD-40E2-87E4-412F1ECF10BD}

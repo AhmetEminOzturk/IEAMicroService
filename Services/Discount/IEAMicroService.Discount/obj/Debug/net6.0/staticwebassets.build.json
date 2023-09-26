@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yyxfnH4wy+wTA6lM6k4g0FcMuvVFtnw0GTrPdILhr/0=",
+  "Source": "IEAMicroService.Discount",
+  "BasePath": "_content/IEAMicroService.Discount",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
