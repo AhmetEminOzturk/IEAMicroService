@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Qx5Vgk1pkAmIQZzmsWffXCb8rfyR/MHjQ1owoq3SQBc=",
+  "Source": "IEAMicroService.Basket",
+  "BasePath": "_content/IEAMicroService.Basket",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

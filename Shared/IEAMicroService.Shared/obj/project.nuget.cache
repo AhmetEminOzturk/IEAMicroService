@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wrA24aQgNl/JlGFjE9vzeZ5GJNSbz3CfPF13LG1Z5DlH0l0fArjNCPIVTEF7juy0g5GkQMMydoHAkvfcGFaVjw==",
+  "dgSpecHash": "Xy5YZy0DF9lMGPfDMFr/zrtH1HnMSHcFHSrbrldlWn8cxdjIA14QQvYkL0wvuNFI+QpA+92LK2K/XbXYWYQJLw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\IEAMicroService\\Shared\\IEAMicroService.Shared\\IEAMicroService.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.0.0\\microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.0.0\\microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\system.text.encodings.web\\4.4.0\\system.text.encodings.web.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

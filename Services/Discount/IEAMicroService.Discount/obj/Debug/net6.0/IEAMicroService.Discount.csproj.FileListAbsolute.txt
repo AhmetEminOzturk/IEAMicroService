@@ -71,3 +71,4 @@ C:\GitHub\IEAMicroService\Services\Discount\IEAMicroService.Discount\bin\Debug\n
 C:\GitHub\IEAMicroService\Services\Discount\IEAMicroService.Discount\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\GitHub\IEAMicroService\Services\Discount\IEAMicroService.Discount\bin\Debug\net6.0\IEAMicroService.Shared.dll
 C:\GitHub\IEAMicroService\Services\Discount\IEAMicroService.Discount\bin\Debug\net6.0\IEAMicroService.Shared.pdb
+C:\GitHub\IEAMicroService\Services\Discount\IEAMicroService.Discount\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

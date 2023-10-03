@@ -13,6 +13,8 @@ namespace IEAMicroService.IdentityServer
         public static IEnumerable<ApiResource> ApiResources => new ApiResource[]
         {
             new ApiResource ("resource_catalog"){Scopes = {"catalog_fullpermission"}},
+            new ApiResource ("resource_discount"){Scopes = {"discount_fullpermission"}},
+            new ApiResource ("resource_basket"){Scopes = {"basket_fullpermission"}},
             new ApiResource (IdentityServerConstants.LocalApi.ScopeName)
         };
         public static IEnumerable<IdentityResource> IdentityResources =>
@@ -27,6 +29,8 @@ namespace IEAMicroService.IdentityServer
             new ApiScope[]
             {
                 new ApiScope("catalog_fullpermission","Ürün listesi için tam erişim"),
+                new ApiScope("discount_fullpermission","İndirim işlemleri için tam erişim"),
+                new ApiScope("basket_fullpermission","Sepet işlemleri için tam erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
                 
             };
@@ -56,7 +60,7 @@ namespace IEAMicroService.IdentityServer
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,                  
 
                     AllowOfflineAccess = true,
-                    AllowedScopes = { "catalog_fullpermission", IdentityServerConstants.LocalApi.ScopeName ,                  IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile},
+                    AllowedScopes = { "catalog_fullpermission", "discount_fullpermission", "basket_fullpermission", IdentityServerConstants.LocalApi.ScopeName ,                  IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile},
                     AccessTokenLifetime=3600
                 },
             };
