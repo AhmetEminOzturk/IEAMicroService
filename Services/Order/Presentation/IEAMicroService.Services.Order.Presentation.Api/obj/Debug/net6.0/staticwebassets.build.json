@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IXL3BD8v1ahNHI8Hy+zul0P4PBxcQsRoJomSckafBeY=",
+  "Source": "IEAMicroService.Services.Order.Presentation.Api",
+  "BasePath": "_content/IEAMicroService.Services.Order.Presentation.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

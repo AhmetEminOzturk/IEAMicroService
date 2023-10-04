@@ -1,0 +1,17 @@
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.deps.json
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.runtimeconfig.json
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.dll
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.pdb
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.dll
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.pdb
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj.CopyComplete
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.dll
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\refint\IEAMicroService.Services.Order.Infrastructure.Persistance.dll
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.pdb
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\IEAMicroService.Services.Order.Infrastructure.Persistance.genruntimeconfig.cache
+C:\GitHub\IEAMicroService\Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\obj\Debug\net6.0\ref\IEAMicroService.Services.Order.Infrastructure.Persistance.dll

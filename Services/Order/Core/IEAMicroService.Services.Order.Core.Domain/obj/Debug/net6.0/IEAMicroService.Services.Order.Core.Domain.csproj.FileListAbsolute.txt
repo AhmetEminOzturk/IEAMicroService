@@ -1,0 +1,12 @@
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.deps.json
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.pdb
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\refint\IEAMicroService.Services.Order.Core.Domain.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.pdb
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\obj\Debug\net6.0\ref\IEAMicroService.Services.Order.Core.Domain.dll

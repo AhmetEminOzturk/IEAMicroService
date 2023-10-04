@@ -4,14 +4,14 @@
     "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj": {
+    "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Domain\\IEAMicroService.Services.Order.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj",
-        "projectName": "IEAMicroService.Services.Order.Infrastructure.Persistance",
-        "projectPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj",
+        "projectUniqueName": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Domain\\IEAMicroService.Services.Order.Core.Domain.csproj",
+        "projectName": "IEAMicroService.Services.Order.Core.Domain",
+        "projectPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Domain\\IEAMicroService.Services.Order.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\obj\\",
+        "outputPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,85 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj",
+        "projectName": "IEAMicroService.Services.Order.Infrastructure.Persistance",
+        "projectPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Domain\\IEAMicroService.Services.Order.Core.Domain.csproj": {
+                "projectPath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Domain\\IEAMicroService.Services.Order.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,12 @@
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.deps.json
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.pdb
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\refint\IEAMicroService.Services.Order.Core.Application.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.pdb
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\ref\IEAMicroService.Services.Order.Core.Application.dll
