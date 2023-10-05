@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "oLMD8Coc1EcmwtSfGjSol7pNjiUmDqn/e1kfwdBoQHa/AQQDpoLOChkezMcv/hgvQeuxIwLnrvynFfOFP8McKA==",
+  "dgSpecHash": "DDTbwapSQRNI+shDikRKvxUVDz9g1hIJCO3iGGBIkQ1Kz4cKy67pJR7zfZGxZp9znMDiSHCPw2h4eddbxLfhWg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Presentation\\IEAMicroService.Services.Order.Presentation.Api\\IEAMicroService.Services.Order.Presentation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eAo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.0.0\\microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.0.0\\microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
