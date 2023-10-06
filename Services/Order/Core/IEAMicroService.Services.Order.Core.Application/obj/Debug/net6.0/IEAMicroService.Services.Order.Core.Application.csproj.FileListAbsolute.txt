@@ -10,3 +10,6 @@ C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Cor
 C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\refint\IEAMicroService.Services.Order.Core.Application.dll
 C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.pdb
 C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\ref\IEAMicroService.Services.Order.Core.Application.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.dll
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\bin\Debug\net6.0\IEAMicroService.Services.Order.Core.Domain.pdb
+C:\GitHub\IEAMicroService\Services\Order\Core\IEAMicroService.Services.Order.Core.Application\obj\Debug\net6.0\IEAMicroService.Services.Order.Core.Application.csproj.CopyComplete

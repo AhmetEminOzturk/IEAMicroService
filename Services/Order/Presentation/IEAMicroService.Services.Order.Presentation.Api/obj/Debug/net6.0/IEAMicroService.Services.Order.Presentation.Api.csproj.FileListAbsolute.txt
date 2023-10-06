@@ -74,3 +74,8 @@ C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.O
 C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\obj\Debug\net6.0\IEAMicroService.Services.Order.Presentation.Api.pdb
 C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\obj\Debug\net6.0\IEAMicroService.Services.Order.Presentation.Api.genruntimeconfig.cache
 C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\obj\Debug\net6.0\ref\IEAMicroService.Services.Order.Presentation.Api.dll
+C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\bin\Debug\net6.0\MediatR.dll
+C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\GitHub\IEAMicroService\Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

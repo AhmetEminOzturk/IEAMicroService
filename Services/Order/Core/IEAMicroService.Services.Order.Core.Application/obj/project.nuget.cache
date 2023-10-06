@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FilVJ5Q7xW6qz/nPAyqdMQtBbPCTW786S1xZHOGtMG7vXGdVVwwbtuTw+hqmWnujYeizGyb0nMgr2kQ0/KIxMw==",
+  "dgSpecHash": "pJmzDMo3eyeMYQAm+8MNBR4zzZHdITw7C0veCaCqVt/cnvMxdLRGQuToTi3BAMbNr0ZVv8YACpNESTfdCZJaUQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Application\\IEAMicroService.Services.Order.Core.Application.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\eAo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
