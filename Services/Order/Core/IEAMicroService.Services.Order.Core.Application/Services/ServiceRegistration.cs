@@ -12,11 +12,13 @@ using System.Threading.Tasks;
 
 namespace IEAMicroService.Services.Order.Core.Application.Services
 {
-    public static class ServiceRegistration 
+    public static class ServiceRegistration
     {
         public static void AddApplicationServices(this IServiceCollection services)
         {
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+            var assembly = Assembly.GetExecutingAssembly();
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
+
             services.AddAutoMapper(opt =>
             {
                 opt.AddProfiles(new List<Profile>

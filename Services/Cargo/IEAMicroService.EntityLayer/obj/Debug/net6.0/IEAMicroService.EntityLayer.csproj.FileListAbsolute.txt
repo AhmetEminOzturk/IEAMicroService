@@ -1,0 +1,12 @@
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.deps.json
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\refint\IEAMicroService.EntityLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\IEAMicroService.EntityLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.EntityLayer\obj\Debug\net6.0\ref\IEAMicroService.EntityLayer.dll

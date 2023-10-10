@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O193dzynQqYaVzWzmda2dUWYnvq2NaiKx9oq3T/VnDqknLQVgLuOMIOatzwatZFt8RjlmDPEQ2zMS/7yVlxqLQ==",
+  "dgSpecHash": "GKzQiAHaPPFwTkwo1ybVmmKoQuHX8Xiofmsv4yXGebB1F3/l8AGMXkdnEiewwoNnPNxoB1sRH2/rZBx/C6EsYw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Presentation\\IEAMicroService.Services.Order.Presentation.Api\\IEAMicroService.Services.Order.Presentation.Api.csproj",
   "expectedPackageFiles": [

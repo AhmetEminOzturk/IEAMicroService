@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "GgKeiJcCXNyPZ1TVmStPLi1ahHq3XW7CfxscmfCNHYMNKPm+Fqu9PVz1vOz/B7lf4dHQ9a8szWxWvT0fNnYxpA==",
+  "dgSpecHash": "jHLTs2XfK07xhp2IqRo0DyIHsxuVTyifkJtz3ywQQAHO3VTGOK/J0po0vsXGesbdHgnTXNumja9GpCRkIooCWg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Infrastructure\\IEAMicroService.Services.Order.Infrastructure.Persistance\\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eAo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.22\\microsoft.entityframeworkcore.6.0.22.nupkg.sha512",

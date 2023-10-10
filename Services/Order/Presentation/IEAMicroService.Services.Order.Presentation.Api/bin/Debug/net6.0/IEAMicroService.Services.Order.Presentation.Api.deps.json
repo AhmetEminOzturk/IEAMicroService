@@ -582,6 +582,7 @@
       },
       "IEAMicroService.Services.Order.Infrastructure.Persistance/1.0.0": {
         "dependencies": {
+          "IEAMicroService.Services.Order.Core.Application": "1.0.0",
           "IEAMicroService.Services.Order.Core.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.22",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.22"

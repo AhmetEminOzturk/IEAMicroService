@@ -29,7 +29,7 @@ builder.Services.AddDbContext<OrderContext>();
 builder.Services.AddScoped(typeof( IRepository<>) , typeof(Repository<>));
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddApplicationServices();
-builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 

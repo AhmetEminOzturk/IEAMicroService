@@ -1,0 +1,12 @@
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.BusinessLayer.deps.json
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.BusinessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.BusinessLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\refint\IEAMicroService.BusinessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\ref\IEAMicroService.BusinessLayer.dll

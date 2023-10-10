@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Kk/iKmoB5wSwnPkWelOIY/ewmhyA+g/PONqKRqUjHpc=",
+  "Source": "IEAMicroService.PresentationLayer",
+  "BasePath": "_content/IEAMicroService.PresentationLayer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

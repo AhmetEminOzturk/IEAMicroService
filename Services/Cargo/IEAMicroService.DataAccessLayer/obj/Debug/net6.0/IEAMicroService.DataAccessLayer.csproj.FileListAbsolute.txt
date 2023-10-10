@@ -1,0 +1,17 @@
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\bin\Debug\net6.0\IEAMicroService.DataAccessLayer.deps.json
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\bin\Debug\net6.0\IEAMicroService.DataAccessLayer.runtimeconfig.json
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\bin\Debug\net6.0\IEAMicroService.DataAccessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\bin\Debug\net6.0\IEAMicroService.DataAccessLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.csproj.AssemblyReference.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.AssemblyInfoInputs.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.AssemblyInfo.cs
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.csproj.CopyComplete
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\refint\IEAMicroService.DataAccessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\IEAMicroService.DataAccessLayer.genruntimeconfig.cache
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.DataAccessLayer\obj\Debug\net6.0\ref\IEAMicroService.DataAccessLayer.dll

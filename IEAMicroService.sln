@@ -33,13 +33,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{600A10FA-4F3E-4D92-BD67-63B911CE2607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.Order.Core.Application", "Services\Order\Core\IEAMicroService.Services.Order.Core.Application\IEAMicroService.Services.Order.Core.Application.csproj", "{AD8CEBE8-C272-46E9-91FC-7F6075EDCEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.Order.Core.Application", "Services\Order\Core\IEAMicroService.Services.Order.Core.Application\IEAMicroService.Services.Order.Core.Application.csproj", "{AD8CEBE8-C272-46E9-91FC-7F6075EDCEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.Order.Core.Domain", "Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\IEAMicroService.Services.Order.Core.Domain.csproj", "{B0D93561-9F1E-4771-9C21-7E40FF396D1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.Order.Core.Domain", "Services\Order\Core\IEAMicroService.Services.Order.Core.Domain\IEAMicroService.Services.Order.Core.Domain.csproj", "{B0D93561-9F1E-4771-9C21-7E40FF396D1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.Order.Infrastructure.Persistance", "Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj", "{A2CC68D3-741B-4A50-BB9C-A3D980BA80C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.Order.Infrastructure.Persistance", "Services\Order\Infrastructure\IEAMicroService.Services.Order.Infrastructure.Persistance\IEAMicroService.Services.Order.Infrastructure.Persistance.csproj", "{A2CC68D3-741B-4A50-BB9C-A3D980BA80C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.Order.Presentation.Api", "Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\IEAMicroService.Services.Order.Presentation.Api.csproj", "{94097AE8-9F7B-4BC4-A7DA-977BE17AE8E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.Order.Presentation.Api", "Services\Order\Presentation\IEAMicroService.Services.Order.Presentation.Api\IEAMicroService.Services.Order.Presentation.Api.csproj", "{94097AE8-9F7B-4BC4-A7DA-977BE17AE8E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{D303AA68-9594-4346-8A82-01B0716487B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.EntityLayer", "Services\Cargo\IEAMicroService.EntityLayer\IEAMicroService.EntityLayer.csproj", "{55FD3368-1803-42F7-A64C-F2EBBB365853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.BusinessLayer", "Services\Cargo\IEAMicroService.BusinessLayer\IEAMicroService.BusinessLayer.csproj", "{A993CB60-7B08-4FF6-AC86-0742793EEF62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.DataAccessLayer", "Services\Cargo\IEAMicroService.DataAccessLayer\IEAMicroService.DataAccessLayer.csproj", "{43BC40A7-B51B-44C0-9561-4BD07CB4F651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.PresentationLayer", "Services\Cargo\IEAMicroService.PresentationLayer\IEAMicroService.PresentationLayer.csproj", "{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +93,22 @@ Global
 		{94097AE8-9F7B-4BC4-A7DA-977BE17AE8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94097AE8-9F7B-4BC4-A7DA-977BE17AE8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94097AE8-9F7B-4BC4-A7DA-977BE17AE8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55FD3368-1803-42F7-A64C-F2EBBB365853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FD3368-1803-42F7-A64C-F2EBBB365853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FD3368-1803-42F7-A64C-F2EBBB365853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FD3368-1803-42F7-A64C-F2EBBB365853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A993CB60-7B08-4FF6-AC86-0742793EEF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A993CB60-7B08-4FF6-AC86-0742793EEF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A993CB60-7B08-4FF6-AC86-0742793EEF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A993CB60-7B08-4FF6-AC86-0742793EEF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BC40A7-B51B-44C0-9561-4BD07CB4F651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BC40A7-B51B-44C0-9561-4BD07CB4F651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BC40A7-B51B-44C0-9561-4BD07CB4F651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BC40A7-B51B-44C0-9561-4BD07CB4F651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +130,11 @@ Global
 		{B0D93561-9F1E-4771-9C21-7E40FF396D1B} = {E3733F80-B23B-4861-8D1A-D8678981D64C}
 		{A2CC68D3-741B-4A50-BB9C-A3D980BA80C5} = {600A10FA-4F3E-4D92-BD67-63B911CE2607}
 		{94097AE8-9F7B-4BC4-A7DA-977BE17AE8E6} = {0C34BA4A-6CCC-4EF4-960B-6BFC485AC1BA}
+		{D303AA68-9594-4346-8A82-01B0716487B1} = {AF37608D-B483-4E25-9954-F732C2400F99}
+		{55FD3368-1803-42F7-A64C-F2EBBB365853} = {D303AA68-9594-4346-8A82-01B0716487B1}
+		{A993CB60-7B08-4FF6-AC86-0742793EEF62} = {D303AA68-9594-4346-8A82-01B0716487B1}
+		{43BC40A7-B51B-44C0-9561-4BD07CB4F651} = {D303AA68-9594-4346-8A82-01B0716487B1}
+		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5} = {D303AA68-9594-4346-8A82-01B0716487B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {860A446C-82CD-40E2-87E4-412F1ECF10BD}
