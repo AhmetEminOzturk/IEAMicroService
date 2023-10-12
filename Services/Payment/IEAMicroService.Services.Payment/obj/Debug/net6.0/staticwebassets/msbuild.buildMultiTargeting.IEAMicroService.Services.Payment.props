@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IEAMicroService.Services.Payment.props" />
+</Project>

@@ -10,3 +10,8 @@ C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug
 C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\refint\IEAMicroService.BusinessLayer.dll
 C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.pdb
 C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\ref\IEAMicroService.BusinessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.DataAccessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.DataAccessLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\bin\Debug\net6.0\IEAMicroService.EntityLayer.pdb
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.BusinessLayer\obj\Debug\net6.0\IEAMicroService.BusinessLayer.csproj.CopyComplete

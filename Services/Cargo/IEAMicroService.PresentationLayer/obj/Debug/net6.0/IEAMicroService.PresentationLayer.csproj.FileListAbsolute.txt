@@ -70,3 +70,6 @@ C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\obj\D
 C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\obj\Debug\net6.0\IEAMicroService.PresentationLayer.pdb
 C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\obj\Debug\net6.0\IEAMicroService.PresentationLayer.genruntimeconfig.cache
 C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\obj\Debug\net6.0\ref\IEAMicroService.PresentationLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\bin\Debug\net6.0\IEAMicroService.BusinessLayer.dll
+C:\GitHub\IEAMicroService\Services\Cargo\IEAMicroService.PresentationLayer\bin\Debug\net6.0\IEAMicroService.BusinessLayer.pdb

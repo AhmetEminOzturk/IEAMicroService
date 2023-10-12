@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "AzJfilA1buLdSZNlcKJMCw0s1WjHc3I9h6cQrOxk06M=",
+  "Source": "IEAMicroService.Services.PhotoStock",
+  "BasePath": "_content/IEAMicroService.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IEAMicroService.Services.PhotoStock\\wwwroot",
+      "Source": "IEAMicroService.Services.PhotoStock",
+      "ContentRoot": "C:\\GitHub\\IEAMicroService\\Services\\PhotoStock\\IEAMicroService.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/IEAMicroService.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\GitHub\\IEAMicroService\\Services\\PhotoStock\\IEAMicroService.Services.PhotoStock\\wwwroot\\photos\\indir.png",
+      "SourceId": "IEAMicroService.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GitHub\\IEAMicroService\\Services\\PhotoStock\\IEAMicroService.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/IEAMicroService.Services.PhotoStock",
+      "RelativePath": "photos/indir.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\indir.png"
+    }
+  ]
+}

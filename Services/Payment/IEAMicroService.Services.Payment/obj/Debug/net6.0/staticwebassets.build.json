@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KOT3CirdpEa0XttgW23bGhlY1pJJ5yzHjowaI0oPi9U=",
+  "Source": "IEAMicroService.Services.Payment",
+  "BasePath": "_content/IEAMicroService.Services.Payment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

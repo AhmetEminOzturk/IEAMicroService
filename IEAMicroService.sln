@@ -43,13 +43,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.Or
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{D303AA68-9594-4346-8A82-01B0716487B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.EntityLayer", "Services\Cargo\IEAMicroService.EntityLayer\IEAMicroService.EntityLayer.csproj", "{55FD3368-1803-42F7-A64C-F2EBBB365853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.EntityLayer", "Services\Cargo\IEAMicroService.EntityLayer\IEAMicroService.EntityLayer.csproj", "{55FD3368-1803-42F7-A64C-F2EBBB365853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.BusinessLayer", "Services\Cargo\IEAMicroService.BusinessLayer\IEAMicroService.BusinessLayer.csproj", "{A993CB60-7B08-4FF6-AC86-0742793EEF62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.BusinessLayer", "Services\Cargo\IEAMicroService.BusinessLayer\IEAMicroService.BusinessLayer.csproj", "{A993CB60-7B08-4FF6-AC86-0742793EEF62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.DataAccessLayer", "Services\Cargo\IEAMicroService.DataAccessLayer\IEAMicroService.DataAccessLayer.csproj", "{43BC40A7-B51B-44C0-9561-4BD07CB4F651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.DataAccessLayer", "Services\Cargo\IEAMicroService.DataAccessLayer\IEAMicroService.DataAccessLayer.csproj", "{43BC40A7-B51B-44C0-9561-4BD07CB4F651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.PresentationLayer", "Services\Cargo\IEAMicroService.PresentationLayer\IEAMicroService.PresentationLayer.csproj", "{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.PresentationLayer", "Services\Cargo\IEAMicroService.PresentationLayer\IEAMicroService.PresentationLayer.csproj", "{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{BD8BF0D4-B0C4-41B7-8595-16BC47A3E6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.PhotoStock", "Services\PhotoStock\IEAMicroService.Services.PhotoStock\IEAMicroService.Services.PhotoStock.csproj", "{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{86DBF004-B723-4349-9919-894C688BD083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.Payment", "Services\Payment\IEAMicroService.Services.Payment\IEAMicroService.Services.Payment.csproj", "{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +117,14 @@ Global
 		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +151,10 @@ Global
 		{A993CB60-7B08-4FF6-AC86-0742793EEF62} = {D303AA68-9594-4346-8A82-01B0716487B1}
 		{43BC40A7-B51B-44C0-9561-4BD07CB4F651} = {D303AA68-9594-4346-8A82-01B0716487B1}
 		{45AD8AED-6F8B-4724-A1BB-B53F0FBEA7F5} = {D303AA68-9594-4346-8A82-01B0716487B1}
+		{BD8BF0D4-B0C4-41B7-8595-16BC47A3E6DC} = {AF37608D-B483-4E25-9954-F732C2400F99}
+		{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F} = {BD8BF0D4-B0C4-41B7-8595-16BC47A3E6DC}
+		{86DBF004-B723-4349-9919-894C688BD083} = {AF37608D-B483-4E25-9954-F732C2400F99}
+		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F} = {86DBF004-B723-4349-9919-894C688BD083}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {860A446C-82CD-40E2-87E4-412F1ECF10BD}
