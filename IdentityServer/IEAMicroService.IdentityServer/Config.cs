@@ -19,6 +19,7 @@ namespace IEAMicroService.IdentityServer
             new ApiResource ("resource_cargo"){Scopes = {"cargo_fullpermission"}},
             new ApiResource ("resource_photostock"){Scopes = {"photostock_fullpermission"}},
             new ApiResource ("resource_payment"){Scopes = {"payment_fullpermission"}},
+            new ApiResource ("resource_gateway"){Scopes = {"gateway_fullpermission"}},
             new ApiResource (IdentityServerConstants.LocalApi.ScopeName)
         };
         public static IEnumerable<IdentityResource> IdentityResources =>
@@ -39,6 +40,7 @@ namespace IEAMicroService.IdentityServer
                 new ApiScope("cargo_fullpermission","Kargo işlemleri için tam erişim"),
                 new ApiScope("photostock_fullpermission","Fotoğraf işlemleri için tam erişim"),
                 new ApiScope("payment_fullpermission","Ödeme işlemleri için tam erişim"),
+                new ApiScope("gateway_fullpermission","Gateway işlemleri için tam erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
                 
             };
@@ -55,7 +57,7 @@ namespace IEAMicroService.IdentityServer
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("secret".Sha256()) },
 
-                    AllowedScopes = { "catalog_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
+                    AllowedScopes = { "catalog_fullpermission", "gateway_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
                 },
 
                 // interactive client using code flow + pkce
@@ -76,6 +78,7 @@ namespace IEAMicroService.IdentityServer
                         "cargo_fullpermission" ,
                         "photostock_fullpermission" , 
                         "payment_fullpermission" , 
+                        "gateway_fullpermission" , 
                         IdentityServerConstants.LocalApi.ScopeName ,                  
                         IdentityServerConstants.StandardScopes.Email, 
                         IdentityServerConstants.StandardScopes.OpenId, 

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Vi7VTR1vjg9M2ll0b4mdmdcvtNmDKM0cW7+awWky2Tg=",
+  "Source": "IEAMicroService.Gateway",
+  "BasePath": "_content/IEAMicroService.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -53,11 +53,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{BD8BF0D4-B0C4-41B7-8595-16BC47A3E6DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.PhotoStock", "Services\PhotoStock\IEAMicroService.Services.PhotoStock\IEAMicroService.Services.PhotoStock.csproj", "{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.PhotoStock", "Services\PhotoStock\IEAMicroService.Services.PhotoStock\IEAMicroService.Services.PhotoStock.csproj", "{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{86DBF004-B723-4349-9919-894C688BD083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Services.Payment", "Services\Payment\IEAMicroService.Services.Payment\IEAMicroService.Services.Payment.csproj", "{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAMicroService.Services.Payment", "Services\Payment\IEAMicroService.Services.Payment\IEAMicroService.Services.Payment.csproj", "{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{4CDC3BE6-0496-48B3-8B33-8D9E16E6FB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAMicroService.Gateway", "Gateways\IEAMicroService.Gateway\IEAMicroService.Gateway.csproj", "{1B0E6AB1-C5D1-4E2E-8C8C-075AB72636F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,10 @@ Global
 		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0E6AB1-C5D1-4E2E-8C8C-075AB72636F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0E6AB1-C5D1-4E2E-8C8C-075AB72636F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0E6AB1-C5D1-4E2E-8C8C-075AB72636F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0E6AB1-C5D1-4E2E-8C8C-075AB72636F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +163,7 @@ Global
 		{EF42EA4D-D65C-497B-B09C-E7781D2ECC6F} = {BD8BF0D4-B0C4-41B7-8595-16BC47A3E6DC}
 		{86DBF004-B723-4349-9919-894C688BD083} = {AF37608D-B483-4E25-9954-F732C2400F99}
 		{8D3A1DC9-95C2-444C-939D-4AEC0BDEC62F} = {86DBF004-B723-4349-9919-894C688BD083}
+		{1B0E6AB1-C5D1-4E2E-8C8C-075AB72636F4} = {4CDC3BE6-0496-48B3-8B33-8D9E16E6FB10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {860A446C-82CD-40E2-87E4-412F1ECF10BD}
