@@ -1,0 +1,29 @@
+﻿@model CreateRegisterRequest
+@{
+    Layout = null;
+}
+
+<h3>Kayıt Ol</h3>
+
+<div class="container">
+    <div class="row">
+        <form method="post">
+            <label class="form-control">Adınız Soyadınız</label>
+            <input type="text" asp-for="NameSurname" />
+            <br />
+            <label class="form-control">Kullanıcı Adınız</label>
+            <input type="text" asp-for="Username" />
+            <br /> <label class="form-control">Şifreniz</label>
+            <input type="text" asp-for="Password" />
+            <br /> 
+            <label class="form-control">Mail Adresiniz</label>
+            <input type="text" asp-for="NameSurname" />
+            <br />
+            <label class="form-control">Şehir</label>
+            <input type="text" asp-for="City" />
+            <br />
+            <button class="btn btn-primary">Kayıt Ol</button>
+        </form>
+        <a href="Login/Index/" class="btn btn-info">Giriş Yap</a>
+    </div>
+</div>

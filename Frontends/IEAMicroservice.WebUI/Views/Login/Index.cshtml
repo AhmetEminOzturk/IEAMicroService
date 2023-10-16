@@ -1,0 +1,21 @@
+﻿@model CreateLoginRequest
+@{
+    Layout = null;
+}
+
+<h3>Giriş Yap</h3>
+
+<div class="container">
+    <div class="row">
+        <form method="post">
+            <label class="form-control">Kullanıcı Adınız</label>
+            <input type="text" asp-for="Username" />
+            <br /> 
+            <label class="form-control">Şifreniz</label>
+            <input type="text" asp-for="Password" />
+            <br />
+            <button class="btn btn-primary">Kayıt Ol</button>
+        </form>
+        <a href="Register/Index/" class="btn btn-info">Kayıt Ol</a>
+    </div>
+</div>
