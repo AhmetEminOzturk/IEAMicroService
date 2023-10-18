@@ -9,6 +9,7 @@ namespace IEAMicroService.Catalog.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryService _categoryService;

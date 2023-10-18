@@ -1,0 +1,30 @@
+﻿@model List<ResultDiscountCouponDtos.Data>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<div class="container">
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Kupon Kodu</th>
+            <th>Kupon Oranı</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <td>@count</td>
+                <td>@item.Code</td>
+                <td>@item.Rate</td>
+                <td><a class="btn btn-warning" href="/Discount/DeleteDiscount/@item.DiscountCouponId">Sil</a></td>
+                <td><a class="btn btn-primary" href="/Discount/UpdateDiscount/@item.DiscountCouponId">Güncelle</a></td>
+            </tr>
+        }
+    </table>
+    <a href="Discount/CreateDiscount" class="btn btn-success">Yeni Kupon Girişi</a>
+</div>

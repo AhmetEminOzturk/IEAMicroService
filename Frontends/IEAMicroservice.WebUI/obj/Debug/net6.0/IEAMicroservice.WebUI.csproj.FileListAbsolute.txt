@@ -223,3 +223,5 @@ C:\GitHub\IEAMicroService\Frontends\IEAMicroservice.WebUI\obj\Debug\net6.0\refin
 C:\GitHub\IEAMicroService\Frontends\IEAMicroservice.WebUI\obj\Debug\net6.0\IEAMicroservice.WebUI.pdb
 C:\GitHub\IEAMicroService\Frontends\IEAMicroservice.WebUI\obj\Debug\net6.0\IEAMicroservice.WebUI.genruntimeconfig.cache
 C:\GitHub\IEAMicroService\Frontends\IEAMicroservice.WebUI\obj\Debug\net6.0\ref\IEAMicroservice.WebUI.dll
+C:\GitHub\IEAMicroService\Frontends\IEAMicroservice.WebUI\bin\Debug\net6.0\IEAMicroService.Shared.dll
+C:\GitHub\IEAMicroService\Frontends\IEAMicroservice.WebUI\bin\Debug\net6.0\IEAMicroService.Shared.pdb

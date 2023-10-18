@@ -13,7 +13,10 @@
   <ItemGroup>
     <Folder Include="Dtos\LoginDtos\Responses\" />
     <Folder Include="Dtos\RegisterDtos\Responses\" />
-    <Folder Include="Services\Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\IEAMicroService.Shared\IEAMicroService.Shared.csproj" />
   </ItemGroup>
 
 </Project>

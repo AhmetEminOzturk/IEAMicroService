@@ -1,5 +1,6 @@
 ﻿using IEAMicroService.Discount.Dtos;
 using IEAMicroService.Discount.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,7 @@ namespace IEAMicroService.Discount.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class DiscountCouponsController : ControllerBase
     {
         private readonly IDiscountCouponService _discountCouponService;
