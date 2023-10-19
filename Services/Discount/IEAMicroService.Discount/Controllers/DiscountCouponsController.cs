@@ -41,5 +41,12 @@ namespace IEAMicroService.Discount.Controllers
             await _discountCouponService.UpdateDiscountCoupon(updateDiscountCouponDtos);
             return Ok();
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetDiscountCoupon(int id)
+        {
+            var value = await _discountCouponService.GetDiscountById(id);
+            return Ok(value);
+        }
+
     }
 }

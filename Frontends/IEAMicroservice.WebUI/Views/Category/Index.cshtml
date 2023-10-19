@@ -21,12 +21,12 @@
             <tr>
                 <td>@count</td>
                 <td>@item.CategoryName</td>
-                <td><a class="btn btn-warning" href="">Sil</a></td>
-                <td><a class="btn btn-success" href="">Güncelle</a></td>
+                <td><a class="btn btn-warning" href="/Category/DeleteCategory/@item.CategoryId">Sil</a></td>
+                <td><a class="btn btn-success" href="/Category/UpdateCategory/@item.CategoryId">Güncelle</a></td>
             </tr>
         }
     </table>
-    <a class="btn btn-primary" href="">Ekle</a>
+    <a class="btn btn-primary" href="/Category/CreateCategory/">Ekle</a>
 </div>
 
  

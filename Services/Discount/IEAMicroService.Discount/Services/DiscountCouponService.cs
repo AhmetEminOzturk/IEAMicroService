@@ -49,6 +49,15 @@ namespace IEAMicroService.Discount.Services
             return Response<NoContent>.Fail(500, "Bir Hata Oluştu");
         }
 
+        public async Task<Response<ResultGetDiscountCouponDtos>> GetDiscountById(int id)
+        {
+            string sql = "select * from DiscountCoupons where DiscountCouponId = @discountCouponId ";
+            var parameters = new DynamicParameters();
+            parameters.Add("@discountCouponId", id);
+            var status = await _dbConnection.QueryFirstOrDefaultAsync<ResultGetDiscountCouponDtos>(sql, parameters);
+            return Response<ResultGetDiscountCouponDtos>.Success(_mapper.Map<ResultGetDiscountCouponDtos>(status), 200);
+        }
+
         public async Task<Response<List<ResultDiscountCouponDtos>>> GetListAll()
         {
             var values = await _dbConnection.QueryAsync<ResultDiscountCouponDtos>("select * from DiscountCoupons");

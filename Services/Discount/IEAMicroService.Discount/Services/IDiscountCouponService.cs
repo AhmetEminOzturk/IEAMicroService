@@ -9,5 +9,6 @@ namespace IEAMicroService.Discount.Services
         Task<Response<NoContent>> CreateDiscountCoupon(CreateDiscountCouponDtos createDiscountCouponDtos);
         Task<Response<NoContent>> UpdateDiscountCoupon(UpdateDiscountCouponDtos updateDiscountCouponDtos);
         Task<Response<NoContent>> DeleteDiscountCoupon(int id);
+        Task<Response<ResultGetDiscountCouponDtos>> GetDiscountById(int id);
     }
 }

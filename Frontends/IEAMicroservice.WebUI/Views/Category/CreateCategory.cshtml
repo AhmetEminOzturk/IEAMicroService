@@ -1,0 +1,19 @@
+﻿@model CreateCategoryDto
+@{
+    ViewData["Title"] = "CreateCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>CreateDiscount</h1>
+<div class="container">
+    <form method="post" class="form-control">
+        <label class="form-control">Kategori Adı</label>
+        <input type="text" asp-for="CategoryName" />
+        <br />
+
+        <button class="btn btn-success">Ekle</button>
+    </form>
+</div>
+
+
+

@@ -8,8 +8,9 @@ namespace IEAMicroService.Discount.Mapping
     {
         public GeneralMapping()
         {
-            CreateMap<DiscountCoupon,ResultDiscountCouponDtos>().ReverseMap();
+            CreateMap<DiscountCoupon,ResultGetDiscountCouponDtos>().ReverseMap();
             CreateMap<DiscountCoupon,CreateDiscountCouponDtos>().ReverseMap();
+            CreateMap<DiscountCoupon,UpdateDiscountCouponDtos>().ReverseMap();
             CreateMap<DiscountCoupon,UpdateDiscountCouponDtos>().ReverseMap();
         }
     }

@@ -2,7 +2,12 @@
 {
     public class UpdateCategoryDto
     {
-        public string CategoryId { get; set; }
+        public Data[] data { get; set; }
+
+        public class Data
+        {
+            public string CategoryId { get; set; }
         public string CategoryName { get; set; }
+    }
     }
 }
