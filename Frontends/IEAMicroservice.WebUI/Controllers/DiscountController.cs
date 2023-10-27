@@ -1,4 +1,5 @@
-﻿using IEAMicroService.Shared.Dtos;
+﻿using IEAMicroservice.WebUI.Services.Abstract;
+using IEAMicroService.Shared.Dtos;
 using IEAMicroService.WebUI.DiscountDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -11,18 +12,17 @@ namespace IEAMicroservice.WebUI.Controllers
     public class DiscountController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IDiscountCouponService _discountCouponService;
 
-        public DiscountController(IHttpClientFactory httpClientFactory)
+        public DiscountController(IHttpClientFactory httpClientFactory, IDiscountCouponService discountCouponService)
         {
             _httpClientFactory = httpClientFactory;
+            _discountCouponService = discountCouponService;
         }
 
         public async Task<IActionResult> Index()
         {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("http://localhost:5012/api/DiscountCoupons");
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<ResultDiscountCouponDtos>(jsonData);
+            var values = await _discountCouponService.GetAllCategories();
             return View(values.data.ToList());
         }
 
@@ -35,43 +35,28 @@ namespace IEAMicroservice.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateDiscount(CreateDiscountCouponDtos createDiscountCouponDtos)
         {
-            createDiscountCouponDtos.CreatedDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-            createDiscountCouponDtos.UserId = Guid.NewGuid().ToString();
-            var client = _httpClientFactory.CreateClient();
-            var jsonData= JsonConvert.SerializeObject(createDiscountCouponDtos);
-            StringContent content = new StringContent(jsonData,Encoding.UTF8,"application/json");
-            var responseMessage = await client.PostAsync("http://localhost:5012/api/DiscountCoupons",content);
+            await _discountCouponService.CreateDiscountCoupons(createDiscountCouponDtos);
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> DeleteDiscount(int id)
         {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync("http://localhost:5012/api/DiscountCoupons?id=" + id);
+            await _discountCouponService.DeleteDiscountCoupons(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public async Task<IActionResult> UpdateDiscount(int id)
         {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync($"http://localhost:5012/api/DiscountCoupons/{id}");
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var jsonObject = JObject.Parse(jsonData);
-            var data = jsonObject["data"].ToString();
-            var values = JsonConvert.DeserializeObject<UpdateDiscountCouponDtos.Data>(data);
+            var values = await _discountCouponService.GetDiscountCouponsById(id);
             return View(values);
         }
 
         [HttpPost]
         public async Task<IActionResult> UpdateDiscount(UpdateDiscountCouponDtos.Data updateDiscountCouponDtos)
         {
-            updateDiscountCouponDtos.UserId = "Aa";
-            updateDiscountCouponDtos.CreatedDate = DateTime.Now;
-            var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(updateDiscountCouponDtos);
-            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("http://localhost:5012/api/DiscountCoupons", content);
+           await _discountCouponService.UpdateDiscountCoupons(updateDiscountCouponDtos);
             return RedirectToAction("Index");
         }
+
     }
 }

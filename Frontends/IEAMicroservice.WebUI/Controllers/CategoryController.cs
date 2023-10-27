@@ -33,38 +33,26 @@ namespace IEAMicroservice.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
         {
-            var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(createCategoryDto);
-            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PostAsync("http://localhost:5011/api/Categories", content);
+            await _categoryService.CreateCategory(createCategoryDto);
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> DeleteCategory(string id)
         {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync("http://localhost:5011/api/Categories?id=" + id);
+            await _categoryService.DeleteCategory(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public async Task<IActionResult> UpdateCategory(string id)
         {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync($"http://localhost:5011/api/Categories/{id}");
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var jsonObject = JObject.Parse(jsonData);
-            var data = jsonObject["data"].ToString();
-            var values = JsonConvert.DeserializeObject<UpdateCategoryDto.Data>(data);
+            var values = await _categoryService.GetCategoryById(id);
             return View(values);
         }
 
         [HttpPost]
-        public async Task<IActionResult> UpdateCategory(UpdateCategoryDto.Data updateCategoryCouponDtos)
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryDto.Data updateCategoryDto)
         {
-            var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(updateCategoryCouponDtos);
-            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("http://localhost:5011/api/Categories", content);
+            await _categoryService.UpdateCategory(updateCategoryDto);
             return RedirectToAction("Index");
         }
     }

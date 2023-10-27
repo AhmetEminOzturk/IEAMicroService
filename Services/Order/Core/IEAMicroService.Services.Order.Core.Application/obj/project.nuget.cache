@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pJmzDMo3eyeMYQAm+8MNBR4zzZHdITw7C0veCaCqVt/cnvMxdLRGQuToTi3BAMbNr0ZVv8YACpNESTfdCZJaUQ==",
+  "dgSpecHash": "r8vf62j7Lukw/I2gdYNy5xmbkOrucx8/FFx8yIBOvyHM37oQ/KKgB6eYwIi2wrJTBeRMEtpRFisV+6F77Fnx8g==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\IEAMicroService\\Services\\Order\\Core\\IEAMicroService.Services.Order.Core.Application\\IEAMicroService.Services.Order.Core.Application.csproj",
   "expectedPackageFiles": [

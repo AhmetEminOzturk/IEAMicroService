@@ -2,7 +2,9 @@
 using IEAMicroService.Shared.Dtos;
 using IEAMicroService.WebUI.Dtos.CategoryDto;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Net.Http;
+using System.Text;
 
 namespace IEAMicroservice.WebUI.Services.Concrete
 {
@@ -15,14 +17,18 @@ namespace IEAMicroservice.WebUI.Services.Concrete
             _httpClient = httpClient;
         }
 
-        public Task<Response<NoContent>> CreateCategory(CreateCategoryDto createCategoryDto)
+        public async Task CreateCategory(CreateCategoryDto createCategoryDto)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5011/api/Categories", content);
         }
 
-        public Task<Response<NoContent>> DeleteCategory(string id)
+        public async Task DeleteCategory(string id)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var responseMessage = await client.DeleteAsync("http://localhost:5011/api/Categories?id=" + id);
         }
 
         public async Task<ResultCategoryDto> GetAllCategories()
@@ -34,14 +40,23 @@ namespace IEAMicroservice.WebUI.Services.Concrete
             return values;
         }
 
-        public Task<Response<ResultCategoryDto>> GetCategoryById(string id)
+        public async Task<UpdateCategoryDto.Data> GetCategoryById(string id)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var responseMessage = await client.GetAsync($"http://localhost:5011/api/Categories/{id}");
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var jsonObject = JObject.Parse(jsonData);
+            var data = jsonObject["data"].ToString();
+            var values = JsonConvert.DeserializeObject<UpdateCategoryDto.Data>(data);
+            return values;
         }
 
-        public Task<Response<NoContent>> UpdateCategory(UpdateCategoryDto updateCategoryDto)
+        public async Task UpdateCategory(UpdateCategoryDto.Data updateCategoryDto)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("http://localhost:5011/api/Categories", content);
         }
     }
 }
