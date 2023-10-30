@@ -1,0 +1,32 @@
+﻿@model UpdateProductDto.Data
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>UpdateProduct</h1>
+<br />
+<div class="container">
+    <form method="post" class="form-control">
+        <input type="hidden" asp-for="ProductId" />
+        <label class="form-control">Ürün Ad</label>
+        <input type="text" asp-for="ProductName" />
+        <br />
+        <label class="form-control">Ürün Fiyat</label>
+        <input type="text" asp-for="Price" />
+        <br />
+        <label class="form-control">Ürün Stok</label>
+        <input type="text" asp-for="Stock" />
+        <br />
+        <label class="form-control">Ürün Açıklama</label>
+        <input type="text" asp-for="Description" />
+        <br />
+        <label class="form-control">Ürün Görsel</label>
+        <input type="text" asp-for="ImageUrl" />
+        <br />
+        <label class="form-control">Ürün Kategorisi</label>
+        <input type="text" asp-for="CategoryId" />
+        <br />
+        <button class="btn btn-success">Ekle</button>
+    </form>
+</div>

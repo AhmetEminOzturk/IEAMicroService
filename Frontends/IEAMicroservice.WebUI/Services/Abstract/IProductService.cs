@@ -5,10 +5,10 @@ namespace IEAMicroservice.WebUI.Services.Abstract
 {
     public interface IProductService
     {
-        Task<Response<List<ResultProductDto>>> GetAllProducts();
-        Task<Response<ResultProductDto>> GetProductById(string id);
-        Task<Response<NoContent>> CreateProduct(CreateProductDto createProductDto);
-        Task<Response<NoContent>> UpdateProduct(UpdateProductDto updateProductDto);
-        Task<Response<NoContent>> DeleteProduct(string id);
+        Task<ResultProductDto> GetAllProducts();
+        Task<UpdateProductDto.Data> GetProductById(string id);
+        Task CreateProduct(CreateProductDto createProductDto);
+        Task UpdateProduct(UpdateProductDto.Data updateProductDto);
+        Task DeleteProduct(string id);
     }
 }

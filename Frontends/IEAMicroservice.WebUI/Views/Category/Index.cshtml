@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    int count = 0;
 }
 
 <div class="container">
@@ -16,10 +15,8 @@
         </tr>
         @foreach (var item in Model)
         {
-            count++;
-
             <tr>
-                <td>@count</td>
+                <td>@item.CategoryId</td>
                 <td>@item.CategoryName</td>
                 <td><a class="btn btn-warning" href="/Category/DeleteCategory/@item.CategoryId">Sil</a></td>
                 <td><a class="btn btn-success" href="/Category/UpdateCategory/@item.CategoryId">Güncelle</a></td>

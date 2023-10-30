@@ -1,35 +1,61 @@
 ﻿using IEAMicroservice.WebUI.Services.Abstract;
 using IEAMicroService.Shared.Dtos;
 using IEAMicroService.WebUI.Dtos.ProductDto;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Text;
 
 namespace IEAMicroservice.WebUI.Services.Concrete
 {
     public class ProductService : IProductService
     {
-        
-        public Task<Response<NoContent>> CreateProduct(CreateProductDto createProductDto)
+        private readonly IHttpClientFactory _httpClient;
+
+        public ProductService(IHttpClientFactory httpClient)
         {
-            throw new NotImplementedException();
+            _httpClient = httpClient;
         }
 
-        public Task<Response<NoContent>> DeleteProduct(string id)
+        public async Task CreateProduct(CreateProductDto createProductDto)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createProductDto);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5011/api/Products", content);
         }
 
-        public Task<Response<List<ResultProductDto>>> GetAllProducts()
+        public async Task DeleteProduct(string id)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var responseMessage = await client.DeleteAsync("http://localhost:5011/api/Products?id=" + id);
         }
 
-        public Task<Response<ResultProductDto>> GetProductById(string id)
+        public async Task<ResultProductDto> GetAllProducts()
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:5011/api/Products");
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<ResultProductDto>(jsonData);
+            return values;
         }
 
-        public Task<Response<NoContent>> UpdateProduct(UpdateProductDto updateProductDto)
+        public async Task<UpdateProductDto.Data> GetProductById(string id)
         {
-            throw new NotImplementedException();
+            var client = _httpClient.CreateClient();
+            var responseMessage = await client.GetAsync($"http://localhost:5011/api/Products/{id}");
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var jsonObject = JObject.Parse(jsonData);
+            var data = jsonObject["data"].ToString();
+            var values = JsonConvert.DeserializeObject<UpdateProductDto.Data>(data);
+            return values;
+        }
+
+        public async Task UpdateProduct(UpdateProductDto.Data updateProductDto)
+        {
+            var client = _httpClient.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateProductDto);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("http://localhost:5011/api/Products", content);
         }
     }
 }
